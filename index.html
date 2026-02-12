@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind and Bootstrap</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<a href="./images/logo.webp"></a>
+  <a href="./html/bootstrap.html" class="bootstrap"> BOOTSTRAP</a>
+<section
+  class="relative py-20 text-white bg-center bg-cover"
+  style="background-image: url('./images/background.jpg');"
+>
+  <div class="absolute inset-0 bg-black/60"></div>
+
+  <div class="relative max-w-6xl mx-auto px-4 text-center">
+    <h1 class="text-4xl font-bold mb-4">Space solutions by Orion</h1>
+    <p class="text-white/80">We design and launch modern space technologies.</p>
+  </div>
+</section>
+
+<section class="mx-auto max-w-6xl px-4 py-10">
+  <h2 class="text-2xl font-semibold">Блок карточек</h2>
+  <p class="mt-2 text-slate-600">Короткое описание секции.</p>
+
+  <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <article class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+      <div class="flex items-center justify-between">
+        <span class="rounded-full bg-slate-100 px-3 py-1 text-sm text-slate-700">Новое</span>
+        <span class="text-sm text-slate-500">01</span>
+      </div>
+      <h3 class="mt-4 text-lg font-semibold">Заголовок</h3>
+      <p class="mt-2 text-slate-600">Описание карточки в 1–2 строки.</p>
+      <button class="mt-4 w-full rounded-xl bg-slate-900 px-4 py-2 text-white hover:bg-slate-800">
+        Подробнее
+      </button>
+    </article>
+
+    <article class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+      <div class="flex items-center justify-between">
+        <span class="rounded-full bg-slate-100 px-3 py-1 text-sm text-slate-700">Хит</span>
+        <span class="text-sm text-slate-500">02</span>
+      </div>
+      <h3 class="mt-4 text-lg font-semibold">Заголовок</h3>
+      <p class="mt-2 text-slate-600">Описание карточки в 1–2 строки.</p>
+      <button class="mt-4 w-full rounded-xl bg-slate-900 px-4 py-2 text-white hover:bg-slate-800">
+        Подробнее
+      </button>
+    </article>
+
+    <article class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+      <div class="flex items-center justify-between">
+        <span class="rounded-full bg-slate-100 px-3 py-1 text-sm text-slate-700">Скидка</span>
+        <span class="text-sm text-slate-500">03</span>
+      </div>
+      <h3 class="mt-4 text-lg font-semibold">Заголовок</h3>
+      <p class="mt-2 text-slate-600">Описание карточки в 1–2 строки.</p>
+      <button class="mt-4 w-full rounded-xl bg-slate-900 px-4 py-2 text-white hover:bg-slate-800">
+        Подробнее
+      </button>
+    </article>
+  </div>
+</section>
+
+<section class="mx-auto max-w-6xl px-4 py-10">
+  <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold">Статистика</h2>
+    <p class="mt-2 text-slate-600">Цифры, которые повышают доверие.</p>
+
+    <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="rounded-2xl bg-slate-50 p-5">
+        <div class="text-3xl font-bold">120+</div>
+        <div class="mt-1 text-slate-600">Заказов</div>
+      </div>
+      <div class="rounded-2xl bg-slate-50 p-5">
+        <div class="text-3xl font-bold">4.9</div>
+        <div class="mt-1 text-slate-600">Рейтинг</div>
+      </div>
+      <div class="rounded-2xl bg-slate-50 p-5">
+        <div class="text-3xl font-bold">24/7</div>
+        <div class="mt-1 text-slate-600">Поддержка</div>
+      </div>
+      <div class="rounded-2xl bg-slate-50 p-5">
+        <div class="text-3xl font-bold">7 дней</div>
+        <div class="mt-1 text-slate-600">Доставка</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mx-auto max-w-6xl px-4 py-10">
+  <div class="rounded-2xl bg-slate-900 p-6 text-white md:p-10">
+    <h2 class="text-2xl font-semibold md:text-3xl">Готов начать?</h2>
+    <p class="mt-2 max-w-2xl text-slate-200">
+      Короткий текст: что человек получит, если нажмёт кнопку.
+    </p>
+
+    <div class="mt-6 flex flex-col gap-3 sm:flex-row">
+      <a href="#" class="rounded-xl bg-white px-5 py-3 text-center font-medium text-slate-900 hover:bg-slate-100">
+        Начать
+      </a>
+      <a href="#" class="rounded-xl border border-white/30 px-5 py-3 text-center font-medium hover:bg-white/10">
+        Узнать больше
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="mx-auto max-w-6xl px-4 py-10">
+  <h2 class="text-2xl font-semibold">Преимущества</h2>
+
+  <div class="mt-6 grid gap-4 md:grid-cols-3">
+    <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+      <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-100 text-slate-900">⚡</div>
+      <h3 class="mt-4 text-lg font-semibold">Быстро</h3>
+      <p class="mt-2 text-slate-600">Сделано так, чтобы быстро запустить.</p>
+    </div>
+
+    <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+      <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-100 text-slate-900">🛡️</div>
+      <h3 class="mt-4 text-lg font-semibold">Надёжно</h3>
+      <p class="mt-2 text-slate-600">Чистая структура и адаптив.</p>
+    </div>
+
+    <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+      <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-100 text-slate-900">✨</div>
+      <h3 class="mt-4 text-lg font-semibold">Красиво</h3>
+      <p class="mt-2 text-slate-600">Современный минимализм.</p>
+    </div>
+  </div>
+</section>
+
+<section class="mx-auto max-w-6xl px-4 py-10">
+  <div class="flex items-end justify-between gap-4">
+    <div>
+      <h2 class="text-2xl font-semibold">Отзывы</h2>
+      <p class="mt-2 text-slate-600">Что говорят клиенты.</p>
+    </div>
+  </div>
+
+  <div class="mt-6 grid gap-4 md:grid-cols-3">
+    <figure class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+      <blockquote class="text-slate-700">“Очень удобно, всё понятно и быстро.”</blockquote>
+      <figcaption class="mt-4 flex items-center gap-3">
+        <div class="h-10 w-10 rounded-full bg-slate-200"></div>
+        <div>
+          <div class="font-semibold">Имя</div>
+          <div class="text-sm text-slate-500">Город</div>
+        </div>
+      </figcaption>
+    </figure>
+
+    <figure class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+      <blockquote class="text-slate-700">“Дизайн классный, адаптив отличный.”</blockquote>
+      <figcaption class="mt-4 flex items-center gap-3">
+        <div class="h-10 w-10 rounded-full bg-slate-200"></div>
+        <div>
+          <div class="font-semibold">Имя</div>
+          <div class="text-sm text-slate-500">Город</div>
+        </div>
+      </figcaption>
+    </figure>
+
+    <figure class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+      <blockquote class="text-slate-700">“Подключил за 10 минут — супер.”</blockquote>
+      <figcaption class="mt-4 flex items-center gap-3">
+        <div class="h-10 w-10 rounded-full bg-slate-200"></div>
+        <div>
+          <div class="font-semibold">Имя</div>
+          <div class="text-sm text-slate-500">Город</div>
+        </div>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="mx-auto max-w-6xl px-4 py-10">
+  <h2 class="text-2xl font-semibold">Тарифы</h2>
+
+  <div class="mt-6 grid gap-4 lg:grid-cols-3">
+    <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+      <h3 class="text-lg font-semibold">Start</h3>
+      <p class="mt-1 text-slate-600">Для начала</p>
+      <div class="mt-4 text-3xl font-bold">0 ₸</div>
+      <ul class="mt-4 space-y-2 text-slate-700">
+        <li>1 проект</li>
+        <li>Базовые блоки</li>
+        <li>Поддержка</li>
+      </ul>
+      <button class="mt-6 w-full rounded-xl bg-slate-900 px-4 py-2 text-white hover:bg-slate-800">Выбрать</button>
+    </div>
+
+    <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm ring-2 ring-slate-900">
+      <h3 class="text-lg font-semibold">Pro</h3>
+      <p class="mt-1 text-slate-600">Самый популярный</p>
+      <div class="mt-4 text-3xl font-bold">9 990 ₸</div>
+      <ul class="mt-4 space-y-2 text-slate-700">
+        <li> 10 проектов</li>
+        <li>Все блоки</li>
+        <li>Приоритет</li>
+      </ul>
+      <button class="mt-6 w-full rounded-xl bg-slate-900 px-4 py-2 text-white hover:bg-slate-800">Выбрать</button>
+    </div>
+
+    <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+      <h3 class="text-lg font-semibold">Business</h3>
+      <p class="mt-1 text-slate-600">Для команды</p>
+      <div class="mt-4 text-3xl font-bold">29 990 ₸</div>
+      <ul class="mt-4 space-y-2 text-slate-700">
+        <li>Безлимит</li>
+        <li>Команда</li>
+        <li>SLA</li>
+      </ul>
+      <button class="mt-6 w-full rounded-xl bg-slate-900 px-4 py-2 text-white hover:bg-slate-800">Выбрать</button>
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>

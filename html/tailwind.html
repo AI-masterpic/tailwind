@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header class="bg-slate-900 text-white">
+      <div
+        class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <div class="text-xl font-bold">Orion</div>
+
+        <nav>
+          <ul class="flex gap-6 text-sm">
+            <li><a href="#" class="hover:text-blue-400">Home</a></li>
+            <li><a href="#" class="hover:text-blue-400">Mission</a></li>
+            <li><a href="#" class="hover:text-blue-400">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="bg-white py-16">
+      <div class="max-w-6xl mx-auto px-4 grid grid-cols-3 gap-6">
+        <div class="p-6 border rounded">
+          <h3 class="font-semibold mb-2">Launch</h3>
+          <p class="text-sm text-gray-600">Reliable orbital launches.</p>
+        </div>
+
+        <div class="p-6 border rounded">
+          <h3 class="font-semibold mb-2">Research</h3>
+          <p class="text-sm text-gray-600">Space exploration programs.</p>
+        </div>
+
+        <div class="p-6 border rounded">
+          <h3 class="font-semibold mb-2">Engineering</h3>
+          <p class="text-sm text-gray-600">Advanced rocket systems.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-blue-600 text-white py-16">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-4">Ready for launch?</h2>
+
+        <p class="mb-6 text-white/90">
+          Contact Orion to start your space mission today.
+        </p>
+
+        <button
+          class="bg-white text-blue-600 px-6 py-3 rounded font-medium hover:bg-gray-100 transition"
+        >
+          Contact us
+        </button>
+      </div>
+    </section>
+
+    <footer class="bg-slate-900 text-white py-6">
+      <div
+        class="max-w-6xl mx-auto px-4 flex justify-between items-center text-sm"
+      >
+        <span>© 2026 Orion</span>
+        <span>All rights reserved</span>
+      </div>
+    </footer>
+  </body>
+</html>

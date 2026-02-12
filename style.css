@@ -1,0 +1,7 @@
+.test__p > bg-black {
+  background-color: blue;
+}
+
+.test__p ~ bg-black {
+  background-color: purple;
+}
